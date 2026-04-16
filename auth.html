@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In — NexusFinance</title>
+  <meta name="description" content="Sign in or create your NexusFinance account to start processing payments.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="loading-screen"><div class="loader"></div></div>
+  <div class="page-transition"></div>
+
+  <nav class="navbar"><div class="nav-inner">
+    <a href="index.html" class="nav-logo"><div class="logo-icon"><i class="fas fa-chart-line"></i></div>NexusFinance</a>
+    <div class="nav-links"><a href="index.html">Home</a><a href="features.html">Platform</a><a href="tools.html">Solutions</a><a href="pricing.html">Pricing</a><a href="about.html">About</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div>
+    <div class="nav-actions"><button class="theme-toggle" aria-label="Toggle theme"><i class="fas fa-sun"></i></button><div class="mobile-toggle"><span></span><span></span><span></span></div></div>
+  </div></nav>
+  <div class="mobile-menu"><a href="index.html">Home</a><a href="features.html">Platform</a><a href="tools.html">Solutions</a><a href="pricing.html">Pricing</a><a href="about.html">About</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div>
+
+  <div class="auth-page">
+    <div class="auth-card">
+      <div style="text-align:center;margin-bottom:24px">
+        <a href="index.html" class="nav-logo" style="justify-content:center;font-size:1.3rem;margin-bottom:8px">
+          <div class="logo-icon" style="width:40px;height:40px;font-size:1.1rem"><i class="fas fa-chart-line"></i></div>
+          NexusFinance
+        </a>
+        <p style="font-size:0.9rem;color:var(--text-secondary)">Start processing payments in minutes</p>
+      </div>
+      <div class="auth-tabs">
+        <div class="auth-tab active" data-tab="login">Sign In</div>
+        <div class="auth-tab" data-tab="signup">Create Account</div>
+      </div>
+      <form class="auth-form" id="auth-form">
+        <div class="form-group name-field" style="display:none">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Jane Smith">
+        </div>
+        <div class="form-group">
+          <label for="email">Work Email</label>
+          <input type="email" id="email" placeholder="jane@company.com" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="••••••••" required>
+        </div>
+        <button type="submit" class="auth-submit" id="auth-submit">Sign In</button>
+      </form>
+      <div class="auth-divider">or continue with</div>
+      <div class="social-btns">
+        <button class="social-btn" id="google-btn"><i class="fab fa-google"></i> Google</button>
+        <button class="social-btn" id="github-btn"><i class="fab fa-github"></i> GitHub</button>
+      </div>
+      <p style="text-align:center;margin-top:18px;font-size:0.78rem;color:var(--text-muted)">By signing up, you agree to our <a href="#" style="color:var(--primary)">Terms</a> and <a href="#" style="color:var(--primary)">Privacy Policy</a></p>
+    </div>
+
+    <div id="auth-toast" style="position:fixed;bottom:24px;right:24px;background:var(--bg-glass-strong);backdrop-filter:blur(16px);border:1px solid var(--glass-border);border-radius:var(--radius-md);padding:14px 22px;display:none;transform:translateX(120%);opacity:0;transition:all 0.4s var(--ease);z-index:9999;box-shadow:var(--shadow-lg)">
+      <p id="toast-msg" style="font-size:0.9rem;font-weight:500;color:var(--secondary)"></p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexusFinance — The Financial Infrastructure Platform</title>
+  <meta name="description" content="NexusFinance provides the complete financial infrastructure for modern businesses. Payment processing, banking-as-a-service, and AI-powered analytics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="loading-screen"><div class="loader"></div></div>
+  <div class="page-transition"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon"><i class="fas fa-chart-line"></i></div>
+        NexusFinance
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="features.html">Platform</a>
+        <a href="tools.html">Solutions</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle theme"><i class="fas fa-sun"></i></button>
+        <a href="auth.html" class="nav-cta">Get Started</a>
+        <div class="mobile-toggle"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a><a href="features.html">Platform</a><a href="tools.html">Solutions</a>
+    <a href="pricing.html">Pricing</a><a href="about.html">About</a><a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a><a href="auth.html">Get Started</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="section-badge" style="margin-bottom:18px"><i class="fas fa-bolt"></i> Trusted by 10,000+ companies</div>
+          <h1>The Financial <span class="gradient-text">Infrastructure</span> for Modern Business</h1>
+          <p>Process payments, manage banking operations, and unlock real-time financial insights — all through a single, unified API platform trusted by companies worldwide.</p>
+          <div class="hero-buttons">
+            <a href="auth.html" class="btn btn-primary btn-lg">Start Building <i class="fas fa-arrow-right"></i></a>
+            <a href="features.html" class="btn btn-secondary btn-lg">Explore Platform</a>
+          </div>
+          <div style="display:flex;gap:24px;margin-top:24px;align-items:center">
+            <div style="display:flex;gap:4px"><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i></div>
+            <span style="font-size:0.84rem;color:var(--text-muted)">4.9/5 from 2,400+ reviews on G2</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-visual-card">
+            <div class="hero-mockup">
+              <div class="mockup-bar">
+                <div class="mockup-dot"></div>
+                <div class="mockup-dot"></div>
+                <div class="mockup-dot"></div>
+              </div>
+              <div style="display:flex;justify-content:space-between;margin-bottom:16px">
+                <div><p style="font-size:0.7rem;color:var(--text-muted);position:relative;z-index:1">Revenue Today</p><p style="font-family:var(--font-heading);font-size:1.3rem;font-weight:700;color:var(--text-heading);position:relative;z-index:1">$128,430</p></div>
+                <div style="text-align:right"><p style="font-size:0.7rem;color:var(--secondary);position:relative;z-index:1"><i class="fas fa-arrow-up"></i> +24.5%</p><p style="font-size:0.7rem;color:var(--text-muted);position:relative;z-index:1">vs last week</p></div>
+              </div>
+              <div class="mockup-lines">
+                <div class="mockup-line"></div>
+                <div class="mockup-line"></div>
+                <div class="mockup-line"></div>
+                <div class="mockup-line"></div>
+                <div class="mockup-line"></div>
+              </div>
+              <div style="display:flex;gap:10px;margin-top:16px;position:relative;z-index:1">
+                <div style="flex:1;padding:8px;background:var(--code-bg);border-radius:6px;text-align:center"><p style="font-size:0.6rem;color:var(--text-muted)">Approved</p><p style="font-size:0.85rem;font-weight:700;color:var(--secondary)">97.8%</p></div>
+                <div style="flex:1;padding:8px;background:var(--code-bg);border-radius:6px;text-align:center"><p style="font-size:0.6rem;color:var(--text-muted)">Processed</p><p style="font-size:0.85rem;font-weight:700;color:var(--primary)">12,847</p></div>
+                <div style="flex:1;padding:8px;background:var(--code-bg);border-radius:6px;text-align:center"><p style="font-size:0.6rem;color:var(--text-muted)">Fraud</p><p style="font-size:0.85rem;font-weight:700;color:var(--accent)">0.02%</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trusted By Marquee -->
+  <section style="padding:16px 0">
+    <div class="container">
+      <p style="text-align:center;font-size:0.78rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--text-muted);margin-bottom:10px;font-weight:600">Trusted by industry leaders</p>
+    </div>
+    <div class="marquee-wrapper">
+      <div class="marquee-track">
+        <span class="marquee-item"><i class="fab fa-stripe"></i> Stripe</span>
+        <span class="marquee-item"><i class="fab fa-shopify"></i> Shopify</span>
+        <span class="marquee-item"><i class="fab fa-amazon"></i> Amazon</span>
+        <span class="marquee-item"><i class="fab fa-google"></i> Google</span>
+        <span class="marquee-item"><i class="fab fa-microsoft"></i> Microsoft</span>
+        <span class="marquee-item"><i class="fab fa-slack"></i> Slack</span>
+        <span class="marquee-item"><i class="fab fa-spotify"></i> Spotify</span>
+        <span class="marquee-item"><i class="fab fa-uber"></i> Uber</span>
+        <span class="marquee-item"><i class="fab fa-stripe"></i> Stripe</span>
+        <span class="marquee-item"><i class="fab fa-shopify"></i> Shopify</span>
+        <span class="marquee-item"><i class="fab fa-amazon"></i> Amazon</span>
+        <span class="marquee-item"><i class="fab fa-google"></i> Google</span>
+        <span class="marquee-item"><i class="fab fa-microsoft"></i> Microsoft</span>
+        <span class="marquee-item"><i class="fab fa-slack"></i> Slack</span>
+        <span class="marquee-item"><i class="fab fa-spotify"></i> Spotify</span>
+        <span class="marquee-item"><i class="fab fa-uber"></i> Uber</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="section" style="padding-top:12px;padding-bottom:12px">
+    <div class="container">
+      <div class="stats-row">
+        <div class="stat-item">
+          <div class="stat-number" data-count="10" data-suffix="K+">0</div>
+          <div class="stat-label">Active Companies</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="45" data-suffix="B+">0</div>
+          <div class="stat-label">Transactions Processed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="99" data-suffix=".99%">0</div>
+          <div class="stat-label">Uptime SLA</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="135" data-suffix="+">0</div>
+          <div class="stat-label">Countries Supported</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Features -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fas fa-cubes"></i> Platform</div>
+        <h2 class="section-title">Complete Financial <span class="gradient-text">Infrastructure</span></h2>
+        <p class="section-desc">Everything you need to accept payments, manage revenue, and scale your financial operations globally.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-credit-card"></i></div>
+          <h3>Payment Processing</h3>
+          <p>Accept 135+ payment methods globally with intelligent routing, real-time fraud detection, and 99.99% reliability.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:var(--gradient-secondary)"><i class="fas fa-university"></i></div>
+          <h3>Banking-as-a-Service</h3>
+          <p>Embed banking features directly into your product — accounts, cards, transfers, and lending powered by our API.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:var(--gradient-purple)"><i class="fas fa-chart-bar"></i></div>
+          <h3>Revenue Analytics</h3>
+          <p>AI-powered dashboards that surface real-time revenue insights, churn predictions, and growth opportunities.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:linear-gradient(135deg,#0ACF83,#00D4FF)"><i class="fas fa-shield-alt"></i></div>
+          <h3>Fraud Prevention</h3>
+          <p>Machine learning models trained on billions of data points to detect and prevent fraudulent transactions in real-time.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:var(--gradient-accent)"><i class="fas fa-file-invoice-dollar"></i></div>
+          <h3>Billing & Invoicing</h3>
+          <p>Automated recurring billing, smart dunning, and professional invoicing for subscription and usage-based models.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:linear-gradient(135deg,#635BFF,#FF6B6B)"><i class="fas fa-globe"></i></div>
+          <h3>Global Compliance</h3>
+          <p>Stay compliant across jurisdictions with automated tax calculations, KYC/AML checks, and regulatory reporting.</p>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:28px">
+        <a href="features.html" class="btn btn-primary">Explore Full Platform <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solutions Preview -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fas fa-layer-group"></i> Solutions</div>
+        <h2 class="section-title">Built for Every <span class="gradient-text">Business Model</span></h2>
+        <p class="section-desc">Purpose-built payment and banking solutions designed for your specific business model.</p>
+      </div>
+      <div class="tools-grid">
+        <a href="tools.html" class="tool-card">
+          <div class="tool-icon" style="background:var(--gradient-primary)"><i class="fas fa-shopping-cart"></i></div>
+          <h3>E-Commerce</h3>
+          <p>Optimized checkout flows, multi-currency support, and real-time inventory-linked payment processing.</p>
+          <span class="tool-tag">Payments</span><span class="tool-tag">Commerce</span>
+        </a>
+        <a href="tools.html" class="tool-card">
+          <div class="tool-icon" style="background:var(--gradient-secondary)"><i class="fas fa-sync-alt"></i></div>
+          <h3>SaaS & Subscriptions</h3>
+          <p>Flexible billing, plan management, free trials, and intelligent churn-reduction strategies built in.</p>
+          <span class="tool-tag">Recurring</span><span class="tool-tag">Billing</span>
+        </a>
+        <a href="tools.html" class="tool-card">
+          <div class="tool-icon" style="background:var(--gradient-purple)"><i class="fas fa-exchange-alt"></i></div>
+          <h3>Marketplaces</h3>
+          <p>Split payments, multi-party settlements, and automated payouts for complex marketplace ecosystems.</p>
+          <span class="tool-tag">Payouts</span><span class="tool-tag">Splits</span>
+        </a>
+      </div>
+      <div style="text-align:center;margin-top:24px">
+        <a href="tools.html" class="btn btn-secondary">View All Solutions <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why NexusFinance -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fas fa-trophy"></i> Why Us</div>
+        <h2 class="section-title">Why Leaders Choose <span class="gradient-text">NexusFinance</span></h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+          <h3>Go Live in Hours</h3>
+          <p>Developer-first APIs with comprehensive SDKs, clear documentation, and sandbox environments for instant testing.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:var(--gradient-secondary)"><i class="fas fa-expand-arrows-alt"></i></div>
+          <h3>Scale Without Limits</h3>
+          <p>From startup to enterprise — our infrastructure auto-scales to handle millions of transactions per second.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:var(--gradient-accent)"><i class="fas fa-lock"></i></div>
+          <h3>Bank-Grade Security</h3>
+          <p>PCI DSS Level 1 certified, SOC 2 Type II compliant, with end-to-end encryption and tokenization.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:var(--gradient-purple)"><i class="fas fa-headset"></i></div>
+          <h3>24/7 Expert Support</h3>
+          <p>Dedicated solution engineers and round-the-clock support with &lt;15 minute response times on critical issues.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:linear-gradient(135deg,#0ACF83,#00D4FF)"><i class="fas fa-plug"></i></div>
+          <h3>200+ Integrations</h3>
+          <p>Pre-built connectors for ERPs, CRMs, accounting tools, and every major e-commerce platform.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:linear-gradient(135deg,#FF6B6B,#FFD93D)"><i class="fas fa-brain"></i></div>
+          <h3>AI-Powered Insights</h3>
+          <p>Predictive analytics, anomaly detection, and smart recommendations that grow revenue automatically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fas fa-quote-left"></i> Testimonials</div>
+        <h2 class="section-title">Trusted by <span class="gradient-text">Industry Leaders</span></h2>
+      </div>
+      <div class="features-grid">
+        <div class="glass-card">
+          <div style="display:flex;gap:4px;margin-bottom:12px"><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i></div>
+          <p style="margin-bottom:12px;line-height:1.6;font-size:0.9rem">"NexusFinance cut our payment integration time from 3 months to 2 weeks. Their fraud detection saved us $200K in Q1 alone."</p>
+          <div style="display:flex;align-items:center;gap:10px;padding-top:12px;border-top:1px solid var(--border)">
+            <div style="width:32px;height:32px;background:var(--gradient-primary);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.75rem"><i class="fas fa-user"></i></div>
+            <div><p style="font-weight:600;margin:0;font-size:0.85rem">David Park</p><p style="font-size:0.72rem;color:var(--text-muted);margin:0">CTO, ShopFlow</p></div>
+          </div>
+        </div>
+        <div class="glass-card">
+          <div style="display:flex;gap:4px;margin-bottom:12px"><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i></div>
+          <p style="margin-bottom:12px;line-height:1.6;font-size:0.9rem">"Approval rates jumped 15% when we migrated. Multi-currency support lets us serve 30+ markets seamlessly."</p>
+          <div style="display:flex;align-items:center;gap:10px;padding-top:12px;border-top:1px solid var(--border)">
+            <div style="width:32px;height:32px;background:var(--gradient-secondary);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.75rem"><i class="fas fa-user"></i></div>
+            <div><p style="font-weight:600;margin:0;font-size:0.85rem">Elena Vasquez</p><p style="font-size:0.72rem;color:var(--text-muted);margin:0">VP Finance, GlobalTech SaaS</p></div>
+          </div>
+        </div>
+        <div class="glass-card">
+          <div style="display:flex;gap:4px;margin-bottom:12px"><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i><i class="fas fa-star" style="color:#FFD93D;font-size:0.82rem"></i></div>
+          <p style="margin-bottom:12px;line-height:1.6;font-size:0.9rem">"BaaS APIs let us embed financial features in weeks. Customer retention improved 40% as a result."</p>
+          <div style="display:flex;align-items:center;gap:10px;padding-top:12px;border-top:1px solid var(--border)">
+            <div style="width:32px;height:32px;background:var(--gradient-purple);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.75rem"><i class="fas fa-user"></i></div>
+            <div><p style="font-weight:600;margin:0;font-size:0.85rem">Jordan Lee</p><p style="font-size:0.72rem;color:var(--text-muted);margin:0">CEO, FinApp Platform</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fas fa-route"></i> How It Works</div>
+        <h2 class="section-title">Go Live in <span class="gradient-text">Three Steps</span></h2>
+      </div>
+      <div class="features-grid" style="grid-template-columns:repeat(3,1fr)">
+        <div class="feature-card" style="text-align:center">
+          <div class="feature-icon" style="margin:0 auto 16px"><i class="fas fa-key"></i></div>
+          <h3>1. Get API Keys</h3>
+          <p>Create your free account and get sandbox API keys in under 2 minutes. No credit card required.</p>
+        </div>
+        <div class="feature-card" style="text-align:center">
+          <div class="feature-icon" style="background:var(--gradient-secondary);margin:0 auto 16px"><i class="fas fa-cogs"></i></div>
+          <h3>2. Integrate</h3>
+          <p>Use our SDKs, pre-built UI components, or raw APIs. Accept payments in 15 minutes with copy-paste samples.</p>
+        </div>
+        <div class="feature-card" style="text-align:center">
+          <div class="feature-icon" style="background:var(--gradient-purple);margin:0 auto 16px"><i class="fas fa-rocket"></i></div>
+          <h3>3. Go Live & Scale</h3>
+          <p>Switch to production keys, complete verification, and start processing. Auto-scale handles your growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Blog Posts -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fas fa-newspaper"></i> Blog</div>
+        <h2 class="section-title">Latest <span class="gradient-text">Insights</span></h2>
+      </div>
+      <div class="blog-grid">
+        <a href="blog-post.html" class="blog-card"><div class="blog-card-img" style="background:var(--gradient-primary)"></div><div class="blog-card-body"><span class="blog-card-tag">Fintech</span><h3>The Future of Embedded Finance: APIs Reshaping Banking</h3><p>How BaaS APIs are enabling every company to become a fintech company.</p><div class="blog-meta"><span><i class="far fa-clock"></i> 8 min</span></div></div></a>
+        <a href="blog-post.html?id=2" class="blog-card"><div class="blog-card-img" style="background:var(--gradient-secondary)"></div><div class="blog-card-body"><span class="blog-card-tag">Engineering</span><h3>How We Achieved 99.99% Uptime: Infrastructure Deep Dive</h3><p>A technical look at the multi-region architecture powering our platform.</p><div class="blog-meta"><span><i class="far fa-clock"></i> 12 min</span></div></div></a>
+        <a href="blog-post.html?id=3" class="blog-card"><div class="blog-card-img" style="background:var(--gradient-purple)"></div><div class="blog-card-body"><span class="blog-card-tag">Product</span><h3>Introducing Smart Routing: AI That Maximizes Approvals</h3><p>Our ML-powered routing engine analyzes 50+ signals per transaction.</p><div class="blog-meta"><span><i class="far fa-clock"></i> 5 min</span></div></div></a>
+      </div>
+      <div style="text-align:center;margin-top:24px">
+        <a href="blog.html" class="btn btn-secondary">View All Articles <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Ready to Modernize Your Financial Stack?</h2>
+        <p>Join 10,000+ companies processing billions through NexusFinance. Start building in minutes with our free sandbox.</p>
+        <a href="auth.html" class="btn btn-lg">Start Free — No Credit Card <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <div class="logo-icon"><i class="fas fa-chart-line"></i></div>
+            NexusFinance
+          </a>
+          <p>The complete financial infrastructure platform for modern businesses. Payments, banking, and intelligence — unified.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <a href="features.html">Features</a>
+          <a href="tools.html">Solutions</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="#">API Docs</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+          <a href="#">Careers</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Security</a>
+          <a href="#">Compliance</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 NexusFinance, Inc. All rights reserved.</span>
+        <span>SOC 2 · PCI DSS Level 1 · GDPR</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
